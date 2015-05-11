@@ -4,8 +4,8 @@
    $servidor = 'br-cdbr-azure-south-a.cloudapp.net';
    $porta = 1433;
    $banco = "yearbookdaw";
-   $usuario = "danielrocksu@vf2yfajnje";
-   $senha = "Yearbook2015";
+   $usuario = "bce57962034b55";
+   $senha = "ff0b7710";
    
       $conn = new PDO("mysql:host=$servidor;
 	                   port=$porta;
