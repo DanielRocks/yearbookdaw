@@ -1,7 +1,7 @@
 <?php
  function conn_mysql(){
 
-   $servidor = 'tcp:g48e0yh47b.database.windows.net';
+   $servidor = 'br-cdbr-azure-south-a.cloudapp.net';
    $porta = 1433;
    $banco = "yearbookdaw";
    $usuario = "danielrocksu";
