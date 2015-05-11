@@ -37,19 +37,19 @@ try
 		// Se a foto estiver sido selecionada
 	if (!empty($foto["name"])) {
 		
-		// Largura máxima em pixels
+		/*// Largura máxima em pixels
 		$largura = 150;
 		// Altura máxima em pixels
 		$altura = 180;
 		// Tamanho máximo do arquivo em bytes
-		$tamanho = 1000;
+		$tamanho = 1000;*/
  
     	// Verifica se o arquivo é uma imagem
     	if(!preg_match("/^image\/(pjpeg|jpeg|png|gif|bmp)$/", $foto["type"])){
      	   $error[1] = "Isso não é uma imagem.";
    	 	} 
 	
-		// Pega as dimensões da imagem
+		/*// Pega as dimensões da imagem
 		$dimensoes = getimagesize($foto["tmp_name"]);
 	
 		// Verifica se a largura da imagem é maior que a largura permitida
@@ -65,7 +65,7 @@ try
 		// Verifica se o tamanho da imagem é maior que o tamanho permitido
 		if($foto["size"] > $tamanho) {
    		 	$error[4] = "A imagem deve ter no máximo ".$tamanho." bytes";
-		}
+		}*/
  
 		
 			// Pega extensão da imagem
