@@ -1,15 +1,17 @@
 <?php
  function conn_mysql(){
 
-   $servidor = 'tcp:vf2yfajnje.database.windows.net';
-   $porta = 1433;
-   $banco = "mysql";
-   $usuario = "danielrocksu@vf2yfajnje";
-   $senha = "Yearbook2015";
-   
-      $conn = new PDO("sqlsrv:server = tcp:vf2yfajnje.database.windows.net,1433; Database = mysql", "bce57962034b55", "ff0b7710",
-					   array(PDO::ATTR_PERSISTENT => true)
-					   );
-      return $conn;
+    $host = "br-cdbr-azure-south-a.cloudapp.net";
+    $user = "bce57962034b55";
+    $pwd = "ff0b7710";
+    $db = "yearbookdaw";
+    // Connect to database.
+    try {
+        $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
+        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+    }
+    catch(Exception $e){
+        die(var_dump($e));
+    }
    }
 ?>
