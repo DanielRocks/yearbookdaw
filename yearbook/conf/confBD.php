@@ -1,9 +1,9 @@
 <?php
  function conn_mysql(){
 
-   $servidor = 'tcp:vf2yfajnje.database.windows.net';
+   $servidor = 'br-cdbr-azure-south-a.cloudapp.net';
    $porta = 1433;
-   $banco = "mysql";
+   $banco = "yearbookdaw";
    $usuario = "danielrocksu@vf2yfajnje";
    $senha = "Yearbook2015";
    
