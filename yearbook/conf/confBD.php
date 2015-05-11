@@ -6,12 +6,14 @@
     $pwd = "48305f92";
     $db = "as_fc41adb7ec196d0";
     // Connect to database.
-    try {
-        $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
-        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-    }
-    catch(Exception $e){
-        die(var_dump($e));
-    }
-   }
+
+	      $conn = new PDO("mysql:host=$servidor;
+	                   port=$porta;
+					   dbname=$banco", 
+					   $usuario, 
+					   $senha,
+					   array(PDO::ATTR_PERSISTENT => true)
+					   );
+      return $conn;
+ }
 ?>
