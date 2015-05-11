@@ -63,7 +63,7 @@ try{
 				//em cada 'linha' do vetor de resultados existem elementos com os mesmos nomes dos campos recuperados do SGBD
 				echo '<a href="perfil.php?x='. $contatosEncontrados['ID'] .'"><div class="row-fluid panel-body">';
 				echo '<div class="col-md-4"><strong>'. utf8_decode($contatosEncontrados['nomeCompleto']) .'</strong></div>';
-				echo '<div class="col-md-8"><img height="80" width="80" class="img-rounded" src="fotos/'. utf8_decode($contatosEncontrados['arquivoFoto']) .'"></img></div>';
+				echo '<div class="col-md-8"><img height="80" width="60" class="img-rounded" src="fotos/'. utf8_decode($contatosEncontrados['arquivoFoto']) .'"></img></div>';
 				echo '</div></a>';
 
 			}

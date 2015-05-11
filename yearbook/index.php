@@ -52,7 +52,7 @@ require_once("./conf/confBD.php");
 					// fecha a conexão (os resultados já estão capturados)
 					$conexao = null;
 					foreach($resultados as $contatosEncontrados){		//para cada elemento do vetor de resultados...
-						echo'<img height="80" width="80" class="img-rounded" src="fotos/'. utf8_decode($contatosEncontrados['arquivoFoto']) .'"></img>';
+						echo'<img height="80" width="60" class="img-rounded" src="fotos/'. utf8_decode($contatosEncontrados['arquivoFoto']) .'"></img>';
 					}
 				} //try
 			catch (PDOException $e)
