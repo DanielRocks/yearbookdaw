@@ -1,11 +1,11 @@
 <?php
  function conn_mysql(){
 
-   $servidor = 'br-cdbr-azure-south-a.cloudapp.net';
-   $porta = 1433;
-   $banco = "yearbookdaw";
-   $usuario = "bce57962034b55";
-   $senha = "ff0b7710";
+   $servidor = 'localhost';
+   $porta = 3306;
+   $banco = "daw_yearbook";
+   $usuario = "root";
+   $senha = "";
    
       $conn = new PDO("mysql:host=$servidor;
 	                   port=$porta;

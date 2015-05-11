@@ -84,7 +84,7 @@ include_once("../modelos/cabecalho_login.html");
 
 			  <button type="submit" class="btn btn-primary">Cadastrar</button>
 			  
-			  <a class="btn btn-large" href="./index.php"><h3>Voltar</h3></a>
+			  <a class="btn btn-large" href="../yearbook"><h3>Voltar</h3></a>
 		 </form>
 
 	 </div>
