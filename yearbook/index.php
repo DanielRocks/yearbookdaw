@@ -38,7 +38,7 @@ require_once("./conf/confBD.php");
 		
 				
 						// instrução SQL básica (sem restrição de nome)
-						$SQLSelect = 'SELECT * FROM dbo.participantes';
+						$SQLSelect = 'SELECT * FROM participantes';
 	
 			
 						//prepara a execução da sentença

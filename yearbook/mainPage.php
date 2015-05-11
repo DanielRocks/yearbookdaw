@@ -25,7 +25,7 @@ try{
 		
 				
 		// instrução SQL básica (sem restrição de nome)
-		$SQLSelect = 'SELECT * FROM dbo.participantes';
+		$SQLSelect = 'SELECT * FROM participantes';
 	
 	   if(!empty($_POST['filtro'])){
 	         $nomeBusca = utf8_encode(htmlspecialchars($_POST['filtro']));
