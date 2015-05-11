@@ -84,7 +84,7 @@ try
 		
 		
 		// cria instrução SQL parametrizada
-		$SQLInsert = 'INSERT INTO participantes (login, nomeCompleto, email, cidade, estado, descricao, arquivoFoto, senha)
+		$SQLInsert = 'INSERT INTO dbo.participantes (login, nomeCompleto, email, cidade, estado, descricao, arquivoFoto, senha)
 			  		  VALUES (?,?,?,?,?,?,?,MD5(?))';
 					  
 		//prepara a execução
