@@ -1,11 +1,11 @@
 <?php
  function conn_mysql(){
 
-   $servidor = 'localhost';
+   $servidor = 'tcp:g48e0yh47b.database.windows.net';
    $porta = 1433;
-   $banco = "daw_yearbook";
-   $usuario = "root";
-   $senha = "";
+   $banco = "mysql";
+   $usuario = "danielrocksu";
+   $senha = "1234";
    
       $conn = new PDO("mysql:host=$servidor;
 	                   port=$porta;
