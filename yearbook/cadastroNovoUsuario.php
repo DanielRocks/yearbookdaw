@@ -73,9 +73,14 @@ try
  
         	// Gera um nome único para a imagem
         	$nome_imagem = md5(uniqid(time())) . "." . $ext[1];
+			
+			$caminho = "fotos/";
+			
+			if(!file_exists ( $caminho ))
+				mkdir($caminho, 0700);  //permissoes de escrita, leitura e execucao
  
         	// Caminho de onde ficará a imagem
-        	$caminho_imagem = "/fotos/" . $nome_imagem;
+        	$caminho_imagem = $caminho . $nome_imagem;
  
 			// Faz o upload da imagem para seu respectivo caminho
 			move_uploaded_file($foto["tmp_name"], $caminho_imagem);
