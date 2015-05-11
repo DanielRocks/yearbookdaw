@@ -1,7 +1,7 @@
 <?php
 require_once("./authSession.php");  
 require_once("./conf/confBD.php");
-include_once("../modelos/cabecalho_yearbook.html");
+include_once("./modelos/cabecalho_yearbook.html");
 ?>
 
     <div class="container">
@@ -74,5 +74,5 @@ try
     </div><!-- /.container -->
 
 <?php
-include_once("../modelos/rodape_yearbook.html");
+include_once("./modelos/rodape_html.html");
 ?>

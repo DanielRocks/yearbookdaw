@@ -87,5 +87,5 @@ try{
     </div><!-- /.container -->
 
 <?php
-include_once("../modelos/rodape_yearbook.html");
+include_once("./modelos/rodape_html.html");
 ?>
