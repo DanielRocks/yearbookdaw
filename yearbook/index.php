@@ -65,5 +65,5 @@ require_once("./conf/confBD.php");
 	</div>
 
 <?php
-include_once("./modelos/rodape_html.html");
+include_once("modelos/rodape_html.html");
 ?>
