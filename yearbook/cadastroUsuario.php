@@ -66,7 +66,7 @@ include_once("../modelos/cabecalho_login.html");
 			  
 			  <div class="form-group">
 				<label for="InputDescricao">Descrição:</label>
-				<textarea class="text" id="InputDescricao" rows="4" name="descricao" placeholder="Escreva sobre você"></textarea>
+				<textarea class="text form-control" id="InputDescricao" rows="4" name="descricao" placeholder="Escreva sobre você"></textarea>
 			  </div>
 			  
 			  <div class="form-group">
