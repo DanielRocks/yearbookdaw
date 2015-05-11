@@ -49,9 +49,9 @@ try
 				echo '<div class="row-fluid panel-body">';
 				echo '<div class="col-md-1"><strong>'. utf8_decode($contatosEncontrados['nomeCompleto']) .'</strong></div>';
 				echo '<div class="col-md-2"><img height="80" width="80" class="img-rounded" src="fotos/'. utf8_decode($contatosEncontrados['arquivoFoto']) .'"></img></div>';
-				echo '<div class="col-md-2"><strong>E-Mail:</strong><br> '. $contatosEncontrados['email'] .'</div>';
-				echo '<div class="col-md-2"><strong>Localidade:</strong><br>'. $contatosEncontrados['cidade'] . ' - ' . $contatosEncontrados['estado'] .'</div>';
-				echo '<div class="col-md-5"><strong>Descrição:</strong><br>'. $contatosEncontrados['descricao'] .'</div>';
+				echo '<div class="col-md-2"><strong>E-Mail:</strong><br> '. utf8_decode($contatosEncontrados['email']) .'</div>';
+				echo '<div class="col-md-2"><strong>Localidade:</strong><br>'. utf8_decode($contatosEncontrados['cidade']) . ' - ' . $contatosEncontrados['estado'] .'</div>';
+				echo '<div class="col-md-5"><strong>Descrição:</strong><br>'. utf8_decode($contatosEncontrados['descricao']) .'</div>';
 				echo '</div>';
 				
 				
