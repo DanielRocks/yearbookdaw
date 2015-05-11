@@ -8,13 +8,8 @@
 	$porta = 1433;
     // Connect to database.
 
-	      $conn = new PDO("mysql:host=$host;
-	                   port=$porta;
-					   dbname=$db", 
-					   $user, 
-					   $pwd,
-					   array(PDO::ATTR_PERSISTENT => true)
-					   );
+	      $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
+		  $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
       return $conn;
  }
 ?>
