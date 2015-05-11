@@ -2,7 +2,7 @@
  function conn_mysql(){
 
    $servidor = 'localhost';
-   $porta = 3306;
+   $porta = 1433;
    $banco = "daw_yearbook";
    $usuario = "root";
    $senha = "";
