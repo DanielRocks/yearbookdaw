@@ -18,7 +18,7 @@ try
 		
 				
 		// instrução SQL básica (sem restrição de nome)
-		$SQLSelect = 'SELECT * FROM dbo.participantes';
+		$SQLSelect = 'SELECT * FROM participantes';
 	
 	   if(!empty($_GET["x"])){
 	         $Busca = $_GET["x"];
