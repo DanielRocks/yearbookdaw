@@ -1,10 +1,10 @@
 <?php
  function conn_mysql(){
 
-    $host = "br-cdbr-azure-south-a.cloudapp.net";
-    $user = "bce57962034b55";
-    $pwd = "ff0b7710";
-    $db = "yearbookdaw";
+    $host = "us-cdbr-azure-west-b.cleardb.com";
+    $user = "b1b19373d87a2d";
+    $pwd = "48305f92";
+    $db = "as_fc41adb7ec196d0";
     // Connect to database.
     try {
         $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
