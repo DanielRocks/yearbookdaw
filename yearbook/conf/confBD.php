@@ -3,7 +3,7 @@
 
    $servidor = 'tcp:g48e0yh47b.database.windows.net';
    $porta = 1433;
-   $banco = "mysql";
+   $banco = "yearbookdaw";
    $usuario = "danielrocksu";
    $senha = "1234";
    
