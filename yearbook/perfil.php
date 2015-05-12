@@ -59,7 +59,7 @@ try
 		}
 		
 		if(!empty($_GET["x"])){
-		echo '<div class="sub-header"><a class="btn btn-large" href="./yearbook/mainPage.php"><h3>Voltar</h3></a></div>';
+		echo '<div class="sub-header"><a class="btn btn-large" href="../yearbook/mainPage.php"><h3>Voltar</h3></a></div>';
 		}
 }	
 		catch (PDOException $e)
